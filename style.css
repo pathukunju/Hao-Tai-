@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.light{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    
+}
+.moon{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    
+}
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    
+}
+.container{
+    padding-left: 60px;
+    padding-right: 60px;
+}
+#logo{
+    color: red;
+}
+.for{
+    border-radius:12px ;
+    background-color: #FFE2E4;
+    width: 196px;
+    height: 110px;
+    padding: 32px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    
+}
+
+#red{
+    border-radius: 35px;
+    background-color: #FF575E;
+    width: 113px;
+    height: 40px;
+    align-items: center;
+    padding: 0px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 60px;
+
+
+}
+.tai p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.main{
+    display: flex;
+    gap: 10px;
+    
+
+}
+
+
+    
+
