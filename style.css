@@ -1,7 +1,12 @@
 *{
     margin: 0;
     padding: 0;
+    font-size: small;
 
+}
+.flex{
+    display: flex;
+    gap: 20px;
 }
 .light{
     display: flex;
@@ -11,7 +16,7 @@
 }
 .moon{
     display: flex;
-    padding: 20px;
+    padding: 20px 0px;
     align-items: center;
     
 }
@@ -26,20 +31,186 @@
     padding-left: 60px;
     padding-right: 60px;
 }
+.foot{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
 #logo{
     color: red;
 }
 .for{
     border-radius:12px ;
     background-color: #FFE2E4;
-    width: 196px;
-    height: 110px;
-    padding: 32px;
+    padding: 20px;
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 8px;
     justify-content: center;
+    flex-direction: column;
     
+    
+    
+}
+
+.third{
+    border-radius: 12px;
+    background-color: #FFE2E4;
+    width: 449px;
+    height: 273px;
+    margin-left: 60px;
+    
+}
+.flower{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.green{
+    margin-right: 20px;
+    
+}
+#head{
+    text-align: center;
+    color: #FF575E;
+    margin-top: 100px;
+    margin-bottom:50px;
+    
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.blue{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+
+    
+    gap: 30px;
+}
+
+.digital{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    
+}
+.wine{
+    border: 1px solid#FFE2E4;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    grid-column: span 2;
+    
+    
+}
+.more{
+    border: 1px solid#FFE2E4;
+    border-radius: 10px;
+    padding: 20px;
+    
+    
+}
+.more p{
+    text-align: center;
+    margin-top: 135px;
+    margin-bottom: 135px;
+    color: #FF575E;
+
+}
+h3{
+    margin-bottom: 40px;
+    color: #FF575E;
+}
+h4{
+    margin-bottom: 20px;
+    
+}
+
+.before{
+    display: grid;
+    grid-template-columns:repeat(6,1fr);
+    
+}
+.arrivel{
+    grid-column: span 2;
+}
+.right{
+    display: flex;
+    gap: 20px;
+}
+
+.hao{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.last{
+    margin-top: 20px;
+}
+
+
+.ticket{
+    list-style-image: url(./images/6.png);
+    padding-left: 21px;
+}
+.brand{
+    display: flex;
+    
+}
+ul{
+    list-style: none;
+    
+}
+.benefit{
+    background-color: #FCF3F3;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+}
+
+.one{
+    text-align: center;
+    border-radius: 10px;
+    background-color: #FFE2E4;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    margin: 0 auto;
+}
+.black{
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #FFE2E4;
+    margin-top: 30px;
+    color: #FF575E;
+    
+    text-align: center;
+}
+#bos{
+    color: black;
+}
+.pot{
+    margin-top:50px;
+}
+.job{
+    justify-content: center;
+    gap: 30px;
+    
+    
+}
+.promo{
+    padding: 10px;
+    margin-top: 10px;
+}
+.promo b{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
 }
 
 #red{
@@ -53,6 +224,7 @@
     flex-direction: row;
     justify-content: center;
     margin-bottom: 60px;
+    color: white;
 
 
 }
@@ -63,10 +235,49 @@
 .main{
     display: flex;
     gap: 10px;
+}
+.foot{
+    background-color:#FF575E; 
+    color: white;
     
-
 }
 
-
     
+
+.links{
+    justify-content: space-between;
+    
+}
+.right{
+    justify-content: space-between;
+    gap: 50px;
+}
+.new{
+    margin-bottom: 20px;
+}
+@media screen and (max-width:1000px){
+    div.third{
+        display: none;
+    }
+}
+@media screen and (max-width:700px){
+    div.main{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:900px){
+    .blue .wine{
+        grid-column: span 3;
+    }
+}
+@media screen and (max-width:500px){
+    .blue .wine{
+        grid-column: span 6;
+    }
+}
+@media screen and (max-width:770px){
+    .arrivel{
+        grid-column: span 6;
+    }
+}
 
